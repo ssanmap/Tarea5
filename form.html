@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stylesf.css">
+    <title>Formulario de
+        inscripción </title>
+</head>
+<body>
+    <!-- <a href="info.html">Volver</a"> -->
+    <div class="co">
+        
+    <form action="js.html" method="get" id="myForm" target="_blank" name="myForm">
+           <h2 style="text-align: center;">Formulario de
+                inscripción</h2>
+        <div class="g">
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre" placeholder="inserte nombre">
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" name="apellido" id="apellido"placeholder="inserte apellido">
+
+    </div>
+        <div class="g2">
+        <label for="dire">Dirección</label>
+        <input type="text"  name="direccion" id="direccion"placeholder="inserte dirección">
+
+    </div>
+
+    <div class="g3">
+        <label for="ciudad">Ciudad:</label>
+        <input type="text" placeholder="Ciudad" name="ciudad" id="ciudad">
+        <label for="codigoPostal">Codigo Postal:</label>
+        <input type="text" placeholder="Inserte codigo Postal" name="codPostal" id="codPostal">   
+    </div>
+
+    <div class="g4">
+        <label for="fechaNa">Fecha Nacimiento:</label>
+        <input type="date" name="fechaNa" id="fechaNa" >
+        <label for="genero">Genero:</label>
+       Mujer <input type="radio" name="mujer" id="mujer" value="mujer"> Hombre<input type="radio" name="hombre" value="hombre" id="hombre">
+    </div>
+
+    <div class="g5">
+        <label for="grado">Grado</label>
+        <input type="checkbox" name="prescolar" id="prescolar" value="prescolar">Preescolar
+        <input type="checkbox" name="1" id="1" value="1">1o
+        <input type="checkbox" name="2" id="2" value="2">2o
+        <input type="checkbox" name="3" id="3" value="3">3o
+        <input type="checkbox" name="4" id="4" value="4">4o
+        <input type="checkbox" name="5" id="5" value="5">5o
+
+    </div>
+
+    <div class="g6">
+        <h4>¿De que escuela vives mas cerca?</h4>
+        <h6>Escuela más cercana:</h6>
+        <div class="g6__grid">
+        <input type="checkbox" name="esc1" id="esc1" value="esc1"><label for="">AJ Katzenmaier</label>
+        <input type="checkbox" name="esc2" id="esc2" value="esc2"> <label for="">Marjorie P Hart</label> 
+        <input type="checkbox" name="esc3" id="esc3" value="esc3"> <label for=""> Greenbay</label>      
+        <input type="checkbox" name="esc4" id="esc4" value="esc4"> <label for="">North Elementary</label>       
+        <input type="checkbox" name="esc5" id="esc5" value="esc5"> <label for="">Howard A Yeager</label>       
+        <input type="checkbox" name="esc6" id="esc6" value="esc6"> <label for=""> South Elementary</label>    
+    </div>  
+    </div>
+
+    <div class="g7">
+        <h4>¿Qué posición(es) juegas normalmente? (marque todas las que correspondan)</h4>
+        <div class="g7__grid">
+            <input type="checkbox" name="" id=""> <label for="">Delantero</label> 
+            <input type="checkbox" name="" id=""> <label for="">mediocampo</label> 
+            <input type="checkbox" name="" id=""> <label for="">Portero</label> 
+            <input type="checkbox" name="" id=""> <label for="">defensa</label> 
+        </div>
+       
+    </div>
+
+    <div class="g8">
+        <h4>Tamaño uniforme:</h4>
+        <div class="g8__grid">
+            <input type="checkbox" name="p" id="p"> <label for="">Niño P</label>
+            <input type="checkbox" name="m" id="m"> <label for="">Mediano</label>
+            <input type="checkbox" name="nm" id="nm"> <label for="">Niño M</label>
+            <input type="checkbox" name="g" id="g"> <label for="">Grande</label>
+            <input type="checkbox" name="ng" id="ng"> <label for="">Niño G</label>
+            <input type="checkbox" name="xl" id="xl"> <label for="">Extra-Grande</label>
+            <input type="checkbox" name="pe" id="pe"> <label for="">Pequeño</label>
+            
+        </div>
+    </div>
+
+    <div class="g9">
+        <fieldset>  <legend><h4>Permiso para jugar</h4> </legend> 
+        <p>Yo, el padre o tutor del solicitante de registro menor, estoy de acuerdo en que el solicitante de registro y
+            yo acataremos todas las reglas de la Northside Youth Soccer League (NYSL). Al reconocer la posibilidad
+            de lesiones físicas asociadas al fútbol y en consideración a la"Liga" que acepta al solicitante de registro
+            para sus programas y actividades de fútbol, Por la presente libero y descargo a NYSL, sus empleados y
+            personal asociado y voluntarios, incluyendo las instalaciones utilizadas para prácticas y juegos, contra
+            cualquier reclamo por o en nombre del solicitante de registro como resultado de la participación del
+            solicitante del programa a o en el transporte desde o hacia las actividades patrocinadas por NYSL.
+            Al firmar a continuación, acuerdo y autorizo lo anterior. Además, al firmar a continuación, reconozco
+            que he leído la política de cancelación y acepto sus términos.</p>
+
+            <div class="g9__grid">
+                <label for="">Firma Padre/Tutor:</label>
+                <input type="text" name="firma" id="firma" >
+                <label for="">Fecha:</label>
+                <input type="date" name="fechaFirma" id="fechaFirma" >
+                 
+            </div>
+        </fieldset>
+           
+    </div>
+    <br>
+    <div class="g10">
+        <input type="submit" value="Enviar" >
+    </div>
+    </form>
+
+</div>
+</body>
+</html>
